@@ -18,5 +18,5 @@ jobs:
       - uses: slackapi/slack-github-action@v1.23.0
         id: slack
         with:
-          channel-id: 'C04JP326G1X'
+          channel-id: 'C04PY6J7LTG'
           slack-message: "Hello for the firts time"  
