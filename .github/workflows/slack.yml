@@ -19,4 +19,4 @@ jobs:
         id: slack
         with:
           channel-id: 'C04PY6J7LTG'
-          slack-message: "Hello for the firts time"  
+          slack-message: '[${{github.repository}}] [${{github.ref_name}}]  - Build : ${{steps.build.conclusion}} - actor : ${{github.actor}}'
